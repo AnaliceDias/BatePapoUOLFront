@@ -22,23 +22,34 @@
 
     <main>
 
-        <div class="mensagem">
+        <!--<div class="notificacao">
 
         <div class="horario">horas</div>
-        <div class="remetente">João:</div>
-        <div class="conteudo_mensagem">mensagem blá blá</div>
+        <div class="usuario">João:</div>
+        <div class="conteudo_notificacao">entrou na sala</div>
 
-        </div>
+        </div>-->
+
+        <!--<div class="mensagem" data-identifier="message">
+
+            <div class="horario">horas</div>
+            <div class="usuario">João</div>
+            <div>para <p class="destinatario">todos:</p></div>
+            <div class="conteudo_mensagem">mensagem blá blá</div>
+    
+        </div>-->   
         
     </main>
 
     <footer>
 
         <input type="text" placeholder="Escreva aqui...">
-        <button><ion-icon name="paper-plane-outline"></ion-icon></button>
+        <button data-identifier="send-message"><ion-icon name="paper-plane-outline"></ion-icon></button>
 
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,37 @@
+FAZENDO:
+#Carregar mensagens
+
+
+PRÓXIMO:
+Rolagem automática (com isso: fazer commit do requisito Chat)
+
+
+
+=============
+Dica do Matheus: Para remover pessoas da sala pode reiniciar a página
+-> verificar status na API
+
+
+
+
+=============
+O QUE POSSO MELHORAR [caso sobre tempo]
+
+~deixar o layout sem barra de rolagem
+
+
+
+=============
+FEITO:
+
+#impedir o usuário de entrar na sala se: [CHECK]
+clicar em cancelar [ok]
+digitar um nome existente [ok]
+deixar o espaço em branco [ok]
+se colocar apenas espaços em branco (pesquisar por onkeypress) [ok]
+
+
+PROBLEMAS NÃO RESOLVIDOS:
+
+-> Requisição do status retornando sucesso e erro ao msm tempo; (impede completar a última parte do requisito entrada na sala [quicar usuário]); (com esse: dar commit do requisito Entrar na sala completo)
+dica da Thaís: "Acho que um jeito seria ler o erro que o catch está retornando, igual naquele exercício do gato com o tasteMade"
