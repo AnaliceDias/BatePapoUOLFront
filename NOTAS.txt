@@ -1,40 +1,15 @@
 REQUISITOS:
 
 Layout [OK]
-Chat
-Entrada na sala [incompleto]
-envio de mensagem
+Chat [OK]
+Entrada na sala [ok]
+envio de mensagem [OK]
 
 para facilitar a correção [OK]
 
 ++++++++++++++++++++++++++++
 FAZENDO: 
-#REQUISITO CHAT - Carregar mensagens do servidor :
 
--[OK]só exibir as mensagens privadas escritas por e para vc [verificar o to é no seu nome] [ok]
--[OK]publicar sua mensagem após as anteriores [condicionar a uma boleana(?)]
--atualizar o carregamento a cada 3 segundos
--rolagem automática (com isso: fazer commit do requisito Chat)
-
-=============
-PRÓXIMO:
-[qnd resolver setinterval implementr na verificação do status] rever problema de verificação de status (com isso: commit da entrada na sala completo)
-
-
-=============
-O QUE POSSO MELHORAR [caso sobre tempo]
-
-~deixar o layout sem barra de rolagem
-
-
-
-=============
-PROBLEMAS NÃO RESOLVIDOS:
-
--> Requisição do status retornando sucesso e erro ao msm tempo; (impede completar a última parte do requisito entrada na sala [quicar usuário]);
-ao quicar o usuário, enviar mensagem(usuário saiu da sala) [com isso: dar commit do requisito Entrar na sala completo]
-#sacada: coletar informações, separa o .data dentro da função, procurar pelo índice "status" e verificar se é = "OK"
-Dica do Matheus: Para remover pessoas da sala pode reiniciar a página (
-dica da Thaís: "Acho que um jeito seria ler o erro que o catch está retornando, igual naquele exercício do gato com o tasteMade"
-
--> Horários exibidos estão errados
+-quebra de linha dentro da mensagem [ok]
+-rolagem automática (com isso: fazer commit do requisito Chat) [OK]
+-layout com barra de rolagem

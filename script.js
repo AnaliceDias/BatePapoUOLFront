@@ -1,5 +1,3 @@
-//const elemento_rolagem_automatica = document.querySelector('.rolar');
-
 let usuario = prompt("Digite seu nome de usuário");
 
 let requisicao_usuario = axios.post('https://mock-api.driven.com.br/api/v4/uol/participants', {name: usuario});
@@ -21,7 +19,7 @@ function historicoMensagens (historico_retorno){
     todas_mensagens=historico_retorno.data;
     let tamanho = todas_mensagens.length;
     chat.innerHTML=" ";
-
+    
     for(let i =0; i< tamanho ; i++){
 
         if (todas_mensagens[i].type==="status"){
@@ -55,8 +53,11 @@ function historicoMensagens (historico_retorno){
             }
          }
     }
- 
-    elemento_rolagem_automatica.scrollIntoView();
+    
+    const ultimo_elemento = document.querySelector(".rolar:last-of-type");
+    ultimo_elemento.scrollIntoView();
+
+
 }
 
 function coletaHoras(){

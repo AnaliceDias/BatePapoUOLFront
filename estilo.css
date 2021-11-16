@@ -74,6 +74,7 @@ footer button ion-icon {
 footer input {
     display: flex;
     flex-wrap: wrap;
+
     margin-left: 22px;
 
     width: 270px;
@@ -100,6 +101,8 @@ main {
 main div.mensagem {
     display: flex;
     flex-direction: row;
+
+    word-break: normal;
 
     margin-top: 3px;
     margin-bottom: 3px;
