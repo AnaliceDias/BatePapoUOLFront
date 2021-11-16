@@ -72,7 +72,8 @@ footer button ion-icon {
 }
 
 footer input {
-
+    display: flex;
+    flex-wrap: wrap;
     margin-left: 22px;
 
     width: 270px;
@@ -117,17 +118,6 @@ div.mensagem div {
     flex-direction: row;
 }
 
-main p.destinatario {
-   
-    margin-right: 5px;
-    margin-left: 5px;
-
-    font-weight: bold;
-
-    color: #000000;;
-
-}
-
 main div.horario {
     margin-right: 5px;
 
@@ -135,6 +125,15 @@ main div.horario {
 }
 
 main div.usuario {
+   
+    margin-right: 5px;
+
+    font-weight: bold;
+    color: #000000;;
+
+}
+
+main div.destinatario {
    
     margin-right: 5px;
 
@@ -165,8 +164,25 @@ main div.notificacao {
     background-color: #DCDCDC;
 }
 
-main div.conteudo_notificacao {
+main div.conteudo_mensagem_privada {
  
     color:#000000;
-    
+
 }
+
+main div.mensagem_privada {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    width: 100%;
+
+    background-color: #FFDEDE;
+}
+
